@@ -1,0 +1,23 @@
+    ul {
+        list-style-type: none;
+        margin: 5px;
+        padding: 5px;
+        overflow: hidden;
+    }
+    
+    li {
+        float: left;
+    }
+    
+    li a {
+        display: block;
+        padding: 8px;
+        background-color: #dddddd;
+    }
+    
+    .slideshow-container {
+        width: auto;
+        border: 3px;
+        border-color: black;
+        border-width: 5px;
+    }
