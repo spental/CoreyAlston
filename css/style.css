@@ -1886,3 +1886,6 @@ article .align-right {
 .featured {
     width: 80%;
 }
+h3 {
+    text-align: center;
+}
