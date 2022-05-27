@@ -57,7 +57,10 @@ h6 {
 .row-fluid .row-fluid {
     margin-bottom: 30px;
 }
-
+#katryna {
+    text-align: center;
+    font-size: x-large ;
+}
 .row.nomargin,
 .row-fluid.nomargin {
     margin-bottom: 0;
