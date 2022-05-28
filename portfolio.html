@@ -16,7 +16,7 @@
     <link href="css/fancybox/jquery.fancybox.css" rel="stylesheet">
     <link href="css/jcarousel.css" rel="stylesheet" />
     <link href="css/flexslider.css" rel="stylesheet" />
-    <link href="css/style.css" rel="stylesheet" />
+     <link href="css/style.css" rel="stylesheet" />
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -26,6 +26,7 @@
 </head>
 
 <body>
+  
     <div id="wrapper">
 
         <!-- start header -->
@@ -53,70 +54,114 @@
 
             </div>
         </header>
-        <!-- end header -->
-        <section id="inner-headline">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <h2 class="pageTitle">Portfolio</h2>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="content">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12" >
-                        <div class="span4" style="margin-left:20%; margin-right: 20%;">
-                            <div class="title-box clearfix ">
-                                <h3 class="title-box_primary">Corey Alston</h3>
-                            </div>
-                            <div id="main-slider" class="flexslider">
-                                <ul class="slides">
-                                    <li>
-                                        <img src="/pics//IMG_4177.jpg" alt="" />
-                                    </li>
-                                    <li>
-                                        <img src="/pics/IMG_3033.jpg" alt="" />
-                                        <div class="flex-caption">
-                                    </li>
-                                    <li>
-                                        <img src="/pics//20220311_095555_resized.jpg" alt="" />
-                                    </li>
-                                </ul>
-                            </div>
-                            <br>
-                        <div>
+       
+        <!DOCTYPE html>
+        <html>
+        <style>
+        * {
+          box-sizing: border-box;
+        }
+        
+        body {
+          margin: 0;
+          font-family: Arial;
+        }
+        
+        .header {
+          text-align: center;
+          padding: 32px;
+        }
+        
+        .row {
+          display: -ms-flexbox; /* IE10 */
+          display: flex;
+          -ms-flex-wrap: wrap; /* IE10 */
+          flex-wrap: wrap;
+          padding: 0 4px;
+        }
+        
+        /* Create four equal columns that sits next to each other */
+        .column {
+          -ms-flex: 25%; /* IE10 */
+          flex: 25%;
+          max-width: 25%;
+          padding: 0 4px;
+        }
+        
+        .column img {
+          margin-top: 8px;
+          vertical-align: middle;
+          width: 100%;
+        }
+        
+        /* Responsive layout - makes a two column-layout instead of four columns */
+        @media screen and (max-width: 800px) {
+          .column {
+            -ms-flex: 50%;
+            flex: 50%;
+            max-width: 50%;
+          }
+        }
+        
+        /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 600px) {
+          .column {
+            -ms-flex: 100%;
+            flex: 100%;
+            max-width: 100%;
+          }
+        }
+        </style>
+        <body>
+        
+        <!-- Header -->
+        <div class="header">
+          <h1>Responsive Image Grid</h1>
+          <p>Resize the browser window to see the responsive effect.</p>
+        </div>
+        
+        <!-- Photo Grid -->
+        <div class="row"> 
+          <div class="column">
+            <img src="/picsss/1.jpeg" style="width:100%">
+            <img src="/picsss/2.jpeg" style="width:100%">
+            <img src="/picsss/3.jpeg" style="width:100%">
+            <img src="/picsss/4.jpeg" style="width:100%">
+            <img src="/picsss/5.jpeg" style="width:100%">
+            <img src="/picsss/6.jpeg" style="width:100%">
+            <img src="/picsss/7.jpeg" style="width:100%">
+          </div>
+          <div class="column">
+            <img src="/picsss/8.jpeg" style="width:100%">
+            <img src="/picsss/9.jpeg" style="width:100%">
+            <img src="/picsss/10.jpeg" style="width:100%">
+            <img src="/picsss/11.jpeg" style="width:100%">
+            <img src="/picsss/12.jpeg" style="width:100%">
+            <img src="/picsss/13.jpeg" style="width:100%">
+          </div>  
+          <div class="column">
+            <img src="/picsss/14.jpeg" style="width:100%">
+            <img src="/picsss/15.jpeg" style="width:100%">
+            <img src="/picsss/16.jpeg" style="width:100%">
+            <img src="/picsss/17.jpeg" style="width:100%">
+            <img src="/picsss/18.jpeg" style="width:100%">
+            <img src="/picsss/19.jpeg" style="width:100%">
+            <img src="/picsss/20.jpeg" style="width:100%">
+          </div>
+          <div class="column">
+            <img src="/picsss/21.jpeg" style="width:100%">
+            <img src="/picsss/22.jpeg" style="width:100%">
+            <img src="/picsss/23.jpeg/picsss/2.jpeg" style="width:100%">
+            <img src="/picsss/22.jpeg" style="width:100%">
+            <img src="/picsss/2.jpeg" style="width:100%">
+            <img src="/picsss/1.jpeg" style="width:100%">
+          </div>
+        </div>
+        
+        </body>
+        </html>
+        
 
-                        </div>
-                        <div class="col-md-12" >
-                            <div class="span4" style="margin-left:20%; margin-right: 20%;">
-                                <div class="title-box clearfix ">
-                                    <h3 class="title-box_primary">Corey Alston</h3>
-                                </div>
-                                <div id="main-slider" class="flexslider">
-                                    <ul class="slides">
-                                        <li>
-                                            <img src="/pics//IMG_4177.jpg" alt="" />
-                                        </li>
-                                        <li>
-                                            <img src="/pics/IMG_3033.jpg" alt="" />
-                                            <div class="flex-caption">
-                                        </li>
-                                        <li>
-                                            <img src="/pics//20220311_095555_resized.jpg" alt="" />
-                                        </li>
-                                    </ul>
-                                </div>
-                                <br>
-                            <div>
-    
-                            </div>
-
-                    
-                </div>
-            </div>
-        </section>
         <footer>
             <div class="container">
                 <div class="row">
