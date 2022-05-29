@@ -63,13 +63,36 @@
             </div>
         </section>
 
-        <section id="content">
-            <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="col-md-4" style="align-items:center; text-align: center; object-position: center; margin-right: 30%; margin-left: 30%; ">
+                    <h2 class="w3-center">Automatic Slideshow</h2>
 
-                <section class="course">
-
+                    <div class="w3-content w3-section" style="max-width:500px">
+                        <img class="mySlides" src="/picsss/11.jpeg" style="width:100%">
+                        <img class="mySlides" src="/picsss/10.jpeg" style="width:100%">
+                        <img class="mySlides" src="/picsss/1.jpeg" style="width:100%">
+                      </div>
+                      
+                      <script>
+                      var myIndex = 0;
+                      carousel();
+                      
+                      function carousel() {
+                        var i;
+                        var x = document.getElementsByClassName("mySlides");
+                        for (i = 0; i < x.length; i++) {
+                          x[i].style.display = "none";  
+                        }
+                        myIndex++;
+                        if (myIndex > x.length) {myIndex = 1}    
+                        x[myIndex-1].style.display = "block";  
+                        setTimeout(carousel, 5000); // Change image every 2 seconds
+                      }
+                      </script>
+                </div>
+                <div class="col-md-8">
                     <div class="row">
-                        <div class="col-lg-12">
                             <div class="">
                                 <h3>History & Culture In Every Weave</h3><span class="clear spacer_responsive_hide_mobile " style="height:13px;display:block;"></span>The Gullah/Geechee people of south east America are decendants of enslaved Africans from
                                 several tribes from central and west Africa. These groups of African Slaves labored on plantations located in coastal North Carolina,South Carolina, Georgia, and Florida.
@@ -79,9 +102,36 @@
 
 
                             </div>
-                        </div>
+                            
+                            <div class="col-md-6">
+                                <div class="textbox" style="text-align: center;margin: 0%;">
+                                    <h3>Sweetgrass Basket Sewing</h3>
 
+                                    <p>Viewed as a gift from God Gullah basket weaving has been handed down from generation 
+                                        to generation, usually learned from childhood. Baskets require a great deal of patience 
+                                        and creativity, as there are no set patterns.
+                                        the supply. </p>
+
+                                </div>
+                                
+                            </div>
+                            <div class="col-md-6" style="text-align:center; align-items: center;">
+                                <img  src="/pics/IMG_4174.jpg" alt="">
+                                <h3>Sweetgrass Fesival </h3>
+                            </div>
                     </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <section id="content">
+            <div class="container">
+
+                <section class="course">
+
+                   
                     <div class="row">
                         <div class="col-md-4">
                             <div class="textbox">
@@ -115,21 +165,21 @@
                 </p>
                 </br>
                 <div class="row service-v1 margin-bottom-40">
-                    <div class="col-md-4 md-margin-bottom-40">
-                        <img class="img-responsive" src="/pics/IMG_4174.jpg" alt="">
+                    <div class="col-md-4 md-margin-bottom-40" style="align-items:center; text-align:center; ">
+                        <img style="object-position:center;" src="/pics/IMG_4174.jpg" alt="">
                         <h3>Sweetgrass Fesival </h3>
                         <p>The Sweetgrass Festival promotes Gullah culture, heritage and traditions by celebrating the creativity of sweetgrass basket makers and othe Gullah artists. The Sweetgrass Festival, an annual, family-friendly event, showcases Gullah
                             Geechee perfomances, gospel music, folklore and dance, along with the sweetgrass basket making demonstrationsand videos on the history of the cherished Lowcountry art. A vibrant array of sweetgrass baskets, paintings and other
                             handmade gods are displayed alongside delicious Lowcounty cuisine for all to enjoy. </p>
                     </div>
-                    <div class="col-md-4">
-                        <img class="img-responsive" src="/pics/20220311_095555_resized.jpg" alt="">
+                    <div class="col-md-4" style="align-items:center; text-align:center; ">
+                        <img style="object-position:center;" src="/pics/20220311_095555_resized.jpg" alt="">
                         <h3>Changing Times</h3>
                         <p>In 1997, a historical marker was erected to commemorate the legacy and history of sweetgrass baskets and their makers. The marker was placed at the intersection of Hamlin Road and Highway 17 in the Seven Mile section of Mount Pleasant,
                             on the Basket Makers Coalition and the Christ Church Parish Preservation Society. </p>
                     </div>
-                    <div class="col-md-4 md-margin-bottom-40">
-                        <img class="img-responsive" src="/pics/IMG_3033.jpg" alt="">
+                    <div class="col-md-4 md-margin-bottom-40" style="align-items:center; text-align:center; ">
+                        <img style="object-position:center;" src="/pics/IMG_3033.jpg" alt="">
                         <h3>Sweetgrass Cultural Arts Pavilion</h3>
                         <p>In July 2009, Mount Pleasant celebrated the opening of the Sweetgreass Cultural Arts Pavilion at Memorial Waterfront Park. This open-air pavilion is a tribute to the generations of menand women who have carried on the lowcounty
                             basket tradition for more than three centuries. The facility provides a venue for local sweetgrass basketmakers to sell their wares. Kiosks and panels tell the history of the craft. As a stop along the Gullah Geechee Cultural
